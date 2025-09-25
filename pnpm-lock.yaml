@@ -111,8 +111,8 @@ importers:
         specifier: ^0.28.0
         version: 0.28.1(typescript@5.8.2)
       typedoc-plugin-coverage:
-        specifier: ^3.4.1
-        version: 3.4.1(typedoc@0.28.1(typescript@5.8.2))
+        specifier: ^4.0.0
+        version: 4.0.1(typedoc@0.28.1(typescript@5.8.2))
       typedoc-plugin-custom-validation:
         specifier: ^2.0.2
         version: 2.0.2(typedoc@0.28.1(typescript@5.8.2))
@@ -1877,6 +1877,7 @@ packages:
   eslint-plugin-markdown@5.1.0:
     resolution: {integrity: sha512-SJeyKko1K6GwI0AN6xeCDToXDkfKZfXcexA6B+O2Wr2btUS9GrC+YgwSyVli5DJnctUHjFXcQ2cqTaAmVoLi2A==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+    deprecated: Please use @eslint/markdown instead
     peerDependencies:
       eslint: '>=8'
 
@@ -3220,6 +3221,7 @@ packages:
   source-map@0.8.0-beta.0:
     resolution: {integrity: sha512-2ymg6oRBpebeZi9UUNsgQ89bhx01TcTkmNTGnNO88imTmbSgy4nfujrgVEFKWpMTEGA11EDkTt7mqObTPdigIA==}
     engines: {node: '>= 8'}
+    deprecated: The work that was done in this beta branch won't be included in future versions
 
   spdx-correct@3.2.0:
     resolution: {integrity: sha512-kN9dJbvnySHULIluDHy32WHRUu3Og7B9sbY7tsFLctQkIqnMh3hErYgdMjTYuqmcXX+lK5T1lnUt3G7zNswmZA==}
@@ -3436,11 +3438,11 @@ packages:
   typedarray@0.0.6:
     resolution: {integrity: sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==}
 
-  typedoc-plugin-coverage@3.4.1:
-    resolution: {integrity: sha512-V23DAwinAMpGMGcL1R1s8Snr26hrjfIdwGf+4jR/65ZdmeAN+yRX0onfx5JlembTQhR6AePQ/parfQNS0AZ64A==}
+  typedoc-plugin-coverage@4.0.1:
+    resolution: {integrity: sha512-P1QBR5GJSfW3fDrpz4Vkd8z8lzWaBYjaHebRLk0u2Uga0oSFlPaqrCyiHzItBXxZX28aMlNlZwrUnsLgUgqA7g==}
     engines: {node: '>= 18'}
     peerDependencies:
-      typedoc: 0.25.x || 0.26.x || 0.27.x
+      typedoc: 0.28.x
 
   typedoc-plugin-custom-validation@2.0.2:
     resolution: {integrity: sha512-phJBkPQKUfvNBpYPLjCvJfHluk/R/g6Ksp/VXk4nPFT25EkafbEU7KFMxLcM1E41qAdO63MFPX2JmTdfXFifDQ==}
@@ -7161,7 +7163,7 @@ snapshots:
 
   typedarray@0.0.6: {}
 
-  typedoc-plugin-coverage@3.4.1(typedoc@0.28.1(typescript@5.8.2)):
+  typedoc-plugin-coverage@4.0.1(typedoc@0.28.1(typescript@5.8.2)):
     dependencies:
       typedoc: 0.28.1(typescript@5.8.2)
 
